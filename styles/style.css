@@ -74,7 +74,7 @@ h1 {
 }
 
 a.block {
-    background-image:url('/assets/dark_unit_circle.png');
+    background-image:url('../assets/dark_unit_circle.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
