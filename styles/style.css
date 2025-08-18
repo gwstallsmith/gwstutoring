@@ -55,8 +55,8 @@ article {
     font-size: 18px;
     height:auto;
     width:50%;
-    margin:2%;
-    padding:2%;
+    margin:1%;
+    padding:1%;
     color:var(--text-color);
     background-color:var(--secondary-color);
 
@@ -66,16 +66,24 @@ article {
 
 h1 {
     text-align: center;
-    margin:15%;
+    margin-top:3%;
+    margin-bottom:0%;
     font-size:28px;
 }
 
-b {
-    text-align: center;
-}
-
 a.block {
+    background-image:url('/assets/dark_unit_circle.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
     display:flex;
+
+    
     align-items:center;
     justify-content:center;
     font-size: 18px;
@@ -83,7 +91,7 @@ a.block {
     width:50%;
     margin:2%;
     padding:2%;
-    color:var(--dark-text-color);
+    color:var(--text-color);
     background-color:var(--accent-color);
     text-decoration: none;
 }
